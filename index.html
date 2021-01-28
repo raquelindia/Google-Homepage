@@ -5,10 +5,10 @@
 <div>
     <navbar id="googlenav">
         <ul>
-            <li id="aboutlink" class="aboutstore"><a href="" style="text-decoration:none">About</a></li>
-            <li id="storelink" class="aboutstore"><a href="" style="text-decoration:none">Store</a></li>
-            <li id="gmaillink" class="gmailimages"><a href="" style="text-decoration:none">Gmail</a></li>
-            <li id="imageslink" class="gmailimages"><a href="" style="text-decoration:none">Images</a></li>
+            <li id="aboutlink" class="aboutstore"><a href="" style="text-decoration:none"><font color="black">About</a></li>
+            <li id="storelink" class="aboutstore"><a href="" style="text-decoration:none"><font color="black">Store</a></li>
+            <li id="gmaillink" class="gmailimages"><a href="" style="text-decoration:none"><font color="black">Gmail</a></li>
+            <li id="imageslink" class="gmailimages"><a href="" style="text-decoration:none"><font color="black">Images</a></li>
         <li><button id="signin">Sign In</button></li>
         </ul>
     </nav>
@@ -18,7 +18,10 @@
         <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
         <br>
         <div id="searchinput">
-        <button id="searchbutton"type="submit">Submit<input id="searchbar" type="text"></button>
+          <input type="text">
+              
+              
+            
         <br>
     </div>
     <div id="googlebuttons">
@@ -31,13 +34,15 @@
             border-radius: 10px;
             background-color: white;
         }
-        #searchbar {
-            border-radius: 10px;
-        }
+        
 
         .squaregrey {
-            background-color: lightgrey;
+            background-color: rgba(218, 220, 224, 1);
             font-size: 15px;
+          border-radius: 6px;
+          display: block;
+          border: 0 none;
+          height: 35px
         }
 #googlelogo {
     display: block;
@@ -79,6 +84,7 @@ justify-content: center;
         input {
             width: 500px;
             height: 30px;
+          border-radius: 15px;
         }
         .footernav {
             display: inline;
@@ -90,21 +96,32 @@ justify-content: center;
            background-color: rgba(231, 230, 230, 0.788);
            padding: 20px;
            width: 100%;
+          border-top: 1px solid black;
         }
     #signin {
-        background-color: lightblue;
+        background-color: #4285F4;
+      border-radius: 5px;
+      height: 30px;
+      width: 80px;
+      color: white;
+      font-family: Tahoma;
+      font-size: 15px;
+      float: right;
     }
+      .close-button {
+        
+      }
     </style>
     </body>
     <footer>
         <navbar id="googlefooternav">
-            <li class="footernav"><a href="" style="text-decoration:none;">Advertising</a></li>
-            <li class="footernav"><a href=""style="text-decoration:none">Business</a></li>
-            <li class="footernav"><a href="" style="text-decoration:none">How Search Works</a></li>
+            <li class="footernav"><a href="" style="text-decoration:none;"><font color="black">Advertising</a></li>
+            <li class="footernav"><a href=""style="text-decoration:none"><font color="black">Business</a></li>
+            <li class="footernav"><a href="" style="text-decoration:none"><font color="black">How Search Works</a></li>
             
-        <li class="footernav"><a href="" style="text-decoration:none">Privacy</a></li>
-        <li class="footernav"><a href="" style="text-decoration:none">Terms</a></li>
-        <li class="footernav"><a href="" style="text-decoration:none">Settings</a></li>
+        <li class="footernav"><a href="" style="text-decoration:none"><font color="black">Privacy</a></li>
+        <li class="footernav"><a href="" style="text-decoration:none"><font color="black">Terms</a></li>
+        <li class="footernav"><a href="" style="text-decoration:none"><font color="black">Settings</a></li>
         </navbar>
     </footer>
 </html>
