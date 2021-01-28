@@ -9,6 +9,7 @@
             <li id="storelink" class="aboutstore"><a href="" style="text-decoration:none">Store</a></li>
             <li id="gmaillink" class="gmailimages"><a href="" style="text-decoration:none">Gmail</a></li>
             <li id="imageslink" class="gmailimages"><a href="" style="text-decoration:none">Images</a></li>
+        <li><button id="signin">Sign In</button></li>
         </ul>
     </nav>
 </div>
@@ -20,10 +21,11 @@
         <button id="searchbutton"type="submit">Submit<input id="searchbar" type="text"></button>
         <br>
     </div>
+    <div id="googlebuttons">
         <button class="squaregrey" id="googlesearch">Google Search</button>
         
             <button class="squaregrey" id="feelinglucky">I'm Feeling Lucky</button>
-        
+</div>
     <style>
         #searchbutton {
             border-radius: 10px;
@@ -35,6 +37,7 @@
 
         .squaregrey {
             background-color: lightgrey;
+            font-size: 15px;
         }
 #googlelogo {
     display: block;
@@ -56,18 +59,52 @@
           
         }
         #imageslink {
-            padding-left: 1000px;
+            
         }
 
         #gmaillink {
-            padding-left: 900px;
+           
         }
 #searchinput {
 display: flex;
 justify-content: center;
         }
-        
+        #googlebuttons {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            
+            
+        }
+        input {
+            width: 500px;
+            height: 30px;
+        }
+        .footernav {
+            display: inline;
+        }
+        #googlefooternav {
+           position: absolute;
+           bottom: 0;
+           padding-bottom: 20px;
+           background-color: rgba(231, 230, 230, 0.788);
+           padding: 20px;
+           width: 100%;
+        }
+    #signin {
+        background-color: lightblue;
+    }
     </style>
     </body>
-    
+    <footer>
+        <navbar id="googlefooternav">
+            <li class="footernav"><a href="" style="text-decoration:none;">Advertising</a></li>
+            <li class="footernav"><a href=""style="text-decoration:none">Business</a></li>
+            <li class="footernav"><a href="" style="text-decoration:none">How Search Works</a></li>
+            
+        <li class="footernav"><a href="" style="text-decoration:none">Privacy</a></li>
+        <li class="footernav"><a href="" style="text-decoration:none">Terms</a></li>
+        <li class="footernav"><a href="" style="text-decoration:none">Settings</a></li>
+        </navbar>
+    </footer>
 </html>
