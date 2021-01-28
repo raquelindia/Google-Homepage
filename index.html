@@ -6,11 +6,16 @@
     <navbar id="googlenav">
         <ul>
             <li id="aboutlink" class="aboutstore"><a href="" style="text-decoration:none"><font color="black">About</a></li>
-            <li id="storelink" class="aboutstore"><a href="" style="text-decoration:none"><font color="black">Store</a></li>
-            <li id="gmaillink" class="gmailimages"><a href="" style="text-decoration:none"><font color="black">Gmail</a></li>
-            <li id="imageslink" class="gmailimages"><a href="" style="text-decoration:none"><font color="black">Images</a></li>
-        <li><button id="signin">Sign In</button></li>
+            
+                <li id="storelink" class="aboutstore"><a href="" style="text-decoration:none"><font color="black">Store</a></li>
+                   
+                        <li id="gmaillink" class="gmailimages"><a href="" style="text-decoration:none"><font color="black">Gmail</a></li>
+                            <li id="imageslink" class="gmailimages"><a href="" style="text-decoration:none"><font color="black">Images</a></li>
+                         <li><div id="signinid" class="boxinside"><button id="signin">Sign In</button></li>
+                 
+                           
         </ul>
+        
     </nav>
 </div>
     </head>
@@ -61,6 +66,7 @@
         }
 
         .gmailimages {
+            
           
         }
         #imageslink {
@@ -85,6 +91,8 @@ justify-content: center;
             width: 500px;
             height: 30px;
           border-radius: 15px;
+         
+    
         }
         .footernav {
             display: inline;
@@ -106,11 +114,23 @@ justify-content: center;
       color: white;
       font-family: Tahoma;
       font-size: 15px;
-      float: right;
+      display: block;
+      border: 0 none;
+      
     }
       .close-button {
         
       }
+
+      .float {
+          float: right;
+      }
+
+      .boxinside {
+            float:right;
+      }
+
+   
     </style>
     </body>
     <footer>
